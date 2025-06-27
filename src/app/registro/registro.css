@@ -1,4 +1,4 @@
-.login-container {
+.registro-container {
   display: flex;
   height: 100vh;
   background-image: url('/assets/fondo-login.jpg');
@@ -22,7 +22,7 @@
   color: black;
 }
 
-.login-box {
+.registro-box {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 40px;
   border-radius: 20px;
@@ -30,11 +30,12 @@
   width: 300px;
 }
 
-.login-box h2 {
+.registro-box h2 {
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
-.login-box input {
+.registro-box input {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
@@ -43,7 +44,7 @@
   background-color: #e0dcd7;
 }
 
-.login-box button {
+.registro-box button {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
@@ -56,7 +57,7 @@
   cursor: pointer;
 }
 
-.login-box a {
+.registro-box a {
   color: #a28267;
   text-decoration: none;
 }
